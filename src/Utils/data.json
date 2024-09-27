@@ -1,0 +1,122 @@
+[
+  {
+    "id": 10,
+    "name": "James Wilson",
+    "designation": "Backend Developer",
+    "team": "Backend",
+    "about": "James has experience with various backend technologies and cloud services.",
+    "photo": "/images/image-6.png"
+  },
+  {
+    "id": 3,
+    "name": "Clara Rodriguez",
+    "designation": "Frontend Developer",
+    "team": "Frontend",
+    "about": "Clara is passionate about creating responsive and accessible web applications.",
+    "photo": "/images/image-5.png"
+  },
+  {
+    "id": 15,
+    "name": "Olivia Adams",
+    "designation": "UI/UX Designer",
+    "team": "Design",
+    "about": "Olivia collaborates closely with developers to bring designs to life.",
+    "photo": "/images/image-4.png"
+  },
+  {
+    "id": 14,
+    "name": "Nathan Bennett",
+    "designation": "UI/UX Designer",
+    "team": "Design",
+    "about": "Nathan uses design thinking to solve complex problems and enhance user satisfaction.",
+    "photo": "/images/image-3.png"
+  },
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "designation": "Frontend Developer",
+    "team": "Frontend",
+    "about": "Alice is a skilled frontend developer with a passion for building user-friendly web applications.",
+    "photo": "/images/image-2.png"
+  },
+  {
+    "id": 6,
+    "name": "Franklin Taylor",
+    "designation": "Backend Developer",
+    "team": "Backend",
+    "about": "Franklin specializes in server-side logic and database management.",
+    "photo": "/images/image-1.png"
+  },
+  {
+    "id": 5,
+    "name": "Emma Thompson",
+    "designation": "Frontend Developer",
+    "team": "Frontend",
+    "about": "Emma enjoys working on interactive web applications and animations.",
+    "photo": "/images/image-6.png"
+  },
+  {
+    "id": 7,
+    "name": "Grace Patel",
+    "designation": "Backend Developer",
+    "team": "Backend",
+    "about": "Grace builds robust APIs and optimizes server performance.",
+    "photo": "/images/image-5.png"
+  },
+  {
+    "id": 4,
+    "name": "David Lee",
+    "designation": "Frontend Developer",
+    "team": "Frontend",
+    "about": "David has expertise in HTML, CSS, and JavaScript frameworks.",
+    "photo": "/images/image-4.png"
+  },
+  {
+    "id": 8,
+    "name": "Henry Walker",
+    "designation": "Backend Developer",
+    "team": "Backend",
+    "about": "Henry focuses on data security and backend architecture.",
+    "photo": "/images/image-3.png"
+  },
+  {
+    "id": 12,
+    "name": "Lucas Murphy",
+    "designation": "UI/UX Designer",
+    "team": "Design",
+    "about": "Lucas is skilled in wireframing and prototyping for better user engagement.",
+    "photo": "/images/image-2.png"
+  },
+  {
+    "id": 11,
+    "name": "Katherine Hughes",
+    "designation": "UI/UX Designer",
+    "team": "Design",
+    "about": "Katherine focuses on creating user-centered designs and enhancing user experiences.",
+    "photo": "/images/image-1.png"
+  },
+  {
+    "id": 9,
+    "name": "Isabella Green",
+    "designation": "Backend Developer",
+    "team": "Backend",
+    "about": "Isabella develops scalable web applications and microservices.",
+    "photo": "/images/image-6.png"
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "designation": "Frontend Developer",
+    "team": "Frontend",
+    "about": "Bob specializes in React and has a keen eye for design.",
+    "photo": "/images/image-5.png"
+  },
+  {
+    "id": 13,
+    "name": "Maria Perez",
+    "designation": "UI/UX Designer",
+    "team": "Design",
+    "about": "Maria creates visually appealing designs that improve usability.",
+    "photo": "/images/image-4.png"
+  }
+]

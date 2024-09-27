@@ -1,13 +1,172 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* ----------------------------------------------Nav Bar--------------------------------------- */
+
+.nav_wrapper {
+  display: flex;
+  justify-content: space-around;
+  /* Space items evenly */
+  align-items: center;
+  /* Center items vertically */
+  margin: 3rem auto;
+  /* Center nav with auto margins */
+  padding: 1rem 0;
+  /* Padding inside the nav */
+
+  background-color: #ffffff;
+  /* White background */
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+  /* Soft shadow effect */
+  border-radius: 10px;
+  /* Rounded corners */
+  max-width: 80%;
+  /* Maximum width for responsiveness */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav_item {
+  list-style-type: none;
+  /* Remove bullet points */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  font-size: 1.4rem;
+  /* Increased font size for better readability */
+  padding: 10px 20px;
+  /* Padding around items */
+  color: #333;
+  /* Dark gray text color */
+  transition: all 0.3s ease;
+  /* Smooth transitions */
+  border-radius: 5px;
+  /* Slightly rounded item corners */
+}
+
+/* Hover effect for items */
+.nav_item:hover {
+  background-color: #e7f3ff;
+  /* Light blue background on hover */
+  color: #0056b3;
+  /* Darker blue text color on hover */
+}
+
+/* Active item styling */
+.nav_item.active {
+  border-bottom: 3px solid #007bff;
+  /* Blue underline for active item */
+  color: #007bff;
+  /* Blue text color for active item */
+  font-weight: bold;
+  /* Bold text for active item */
+}
+
+
+/* -----------------------------------------Employee Card--------------------------------------- */
+
+.card_wrapper {
+  border: 1px solid #ddd;
+  /* Light border */
+  border-radius: 15px;
+  /* Softer, rounder corners */
+  height: 26rem;
+  width: 20rem;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  /* Stronger shadow for depth */
+  overflow: hidden;
+  /* Prevent content overflow */
+  transition: transform 0.3s, box-shadow 0.3s;
+  /* Smooth scaling and shadow on hover */
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  /* Light gradient background */
+
+  
+}
+
+.card_wrapper:hover {
+  transform: translateY(-10px);
+  /* Lift card on hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  /* Deep shadow on hover */
+}
+
+.upper_part {
+  display: flex;
+  justify-content: center;
+  /* Center the image */
+  align-items: center;
+  height: 14rem;
+  /* Height of the image section */
+  background-color: #f0f0f0;
+  /* Slightly darker gray background */
+}
+
+.upper_part img {
+  height: 11rem;
+  /* Set a more proportional size for the image */
+  width: 11rem;
+  object-fit: cover;
+  /* Cover the area without distortion */
+  border-radius: 50%;
+  /* Circular image */
+  border: 2px solid #007bff;
+  /* Thicker blue border around image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Shadow around the image */
+}
+
+.lower_part {
+  padding: 1.2rem;
+  /* Increased padding for balance */
+  text-align: center;
+  /* Center align text */
+  background-color: #fff;
+  /* Clean white background */
+  border-top: 1px solid #ddd;
+  /* Thin line to separate the image */
+}
+
+.lower_part h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  /* Larger font for name */
+  color: #212529;
+  /* Darker text color */
+  letter-spacing: 0.5px;
+  /* Slight letter spacing */
+  font-weight: bold;
+  /* Bold font */
+}
+
+.lower_part h3 {
+  margin: 0.4rem 0;
+  /* Tighter margin */
+  font-size: 1.3rem;
+  /* Larger font for designation */
+  color: #6c757d;
+  /* Medium gray */
+  font-style: italic;
+  /* Italicize the designation */
+}
+
+.lower_part p {
+  font-size: 1rem;
+  /* Slightly larger font for summary */
+  color: #495057;
+  /* Darker gray for better readability */
+  line-height: 1.6;
+  /* Increase line spacing */
+  max-height: 4.5rem;
+  /* Limit height */
+  overflow: hidden;
+  /* Hide overflow */
+  text-overflow: ellipsis;
+  /* Ellipsis for overflow text */
+  padding: 0.5rem 0;
+}
+
+/* ----------------------------------------------Employee List--------------------------------------- */
+
+.employeelist_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 6rem 0;
 }
